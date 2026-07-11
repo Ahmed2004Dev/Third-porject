@@ -329,3 +329,45 @@ const server = http.createServer((req, res) => {
     console.log("the server work in 3000")
 
 })
+
+
+
+
+
+
+
+
+
+
+// Part 3
+
+// 1
+// It is a mechanism inside Node.js responsible for monitoring the Call Stack and the Queue.
+//  Whenever the Call Stack becomes empty, it moves the ready-to-execute callback from the Queue to the Call Stack.
+
+
+// 2
+// It is a library written in C that serves as the core engine behind Node.js.
+//  It is responsible for handling slow and complex operations, including asynchronous I/O operations, the Thread Pool, and the Event Loop.
+
+
+// 3
+// By event loop consept
+
+
+// 4
+// Event loop is a mechanism inside Node.js responsible for monitoring the Call Stack and the Queue.
+// Call stack is place for Emplimintaion the functions now in js
+// Queues is Waiting list Save the "Call stack" ready to emplementaiont
+
+
+// 5
+// is group from threads to emplimintation complex and Slowly opreations.
+// Task manager => Performance => Logical operator
+
+
+// 6
+// The OS Scheduler is a component inside the operating system responsible for managing all processes and threads on the devices.
+//  It determines which thread gets CPU (processor) time, and when it is stopped, paused, or interrupted.
+//  All of this—whether the Main Thread, a Thread Pool, or other threads—relies on the OS Scheduler to obtain execution time.
+//  Meanwhile, the Event Loop is capable of managing callbacks and queues. This means the Event Loop runs the threads and not itself,
